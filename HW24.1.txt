@@ -1,0 +1,7 @@
+Створивши набір з GET, POST, PUT, PATCH, DELETE запитів до JSONPlaceholder, які надсилаються протягом 10 секунд у 3 ітерації.
+2.До кожного з запитів застосували 3 різних assert’и. 
+3. Результати виконання тестів наведені у View Results in Tree і Summary Report:
+
+Згідно View Results in Tree весь набір запитів виконаний без помилок.
+Згідно Summary Report avg.size assertions - 1140.3 bytes. В загальному запити відправлені - 0,43 KB/sec, а отримані 2,14 KB/sec
+throughput становить 1,9.sec
