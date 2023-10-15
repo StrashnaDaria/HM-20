@@ -1,0 +1,193 @@
+{
+  "id": "c1807016-7bfd-438b-abf3-afc2ddc570ec",
+  "version": "2.0",
+  "name": "Daria Strashna HW 25 test1",
+  "url": "https://ua.oriflame.com/",
+  "tests": [{
+    "id": "a0200e3c-ac9e-4110-81cc-408af85af92d",
+    "name": "Перевірка роботи пошукової строки на сайту  oriflame ",
+    "commands": [{
+      "id": "deab94fa-849f-45d5-bc58-0a5ba92b6ec7",
+      "comment": "",
+      "command": "open",
+      "target": "https://ua.oriflame.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd9abd60-9dce-4c09-af3b-10a1cc16e8d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5c603dd-2560-4f83-8848-85fa30fdf45b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appshell-fp-1mubvyr",
+      "targets": [
+        ["css=.appshell-fp-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9899a673-806a-4881-96bf-3e3b3e68975e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='top-area']/nav/div[2]/div/div/input",
+      "targets": [
+        ["css=.appshell-fp-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='!\"№;%:??*())_+']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "!\"№;%:??*())_+"
+    }, {
+      "id": "6436d714-b096-45ce-951d-b11a4b93966a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.appshell-fp-1mubvyr",
+      "targets": [
+        ["css=.appshell-fp-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='!\"№;%:??*())_+']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "88ece375-b867-4f89-8f88-fb2fe785d331",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45d5dbe-4a64-4379-9842-a4f9809dc6b5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='cream hand']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cream hand"
+    }, {
+      "id": "dc13c84c-1f51-4e32-9e49-f0a00993d080",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='cream hand']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4e699209-98b7-490c-8f76-3b07dca56da0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a50f3e8-f031-4640-93ea-95c04623e904",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='top-area']/nav/div[2]/div/div/input",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='hand cream']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hand cream"
+    }, {
+      "id": "aaf31626-1677-4d56-aa62-bfcad9708225",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='hand cream']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "57859176-2f43-44fd-994e-bc45cd0c2fc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b1e0ed4-f7f4-4425-ae2e-50be9cf65787",
+      "comment": "",
+      "command": "storeValue",
+      "target": "xpath=//div[@id='top-area']/nav/div[2]/div/div/input",
+      "targets": [],
+      "value": "variable_text"
+    }, {
+      "id": "64b76c86-eab6-4da3-aafb-8ce030729583",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='top-area']/nav/div[2]/div/div/input",
+      "targets": [],
+      "value": "variable_text"
+    }, {
+      "id": "6f42bc1f-f09c-4918-ba27-b7e022fdd6de",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='top-area']/nav/div[2]/div/div/input",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='крем для рук']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "крем для рук"
+    }, {
+      "id": "724a3b62-3424-4a6d-83fe-d81e934452e8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.top-area-1mubvyr",
+      "targets": [
+        ["css=.top-area-1mubvyr", "css:finder"],
+        ["xpath=//input[@value='крем для рук']", "xpath:attributes"],
+        ["xpath=//div[@id='top-area']/nav/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "ad15acbc-f7d3-4d40-b79b-51de07a4e98e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ua.oriflame.com/", "https://dityvmisti.ua/"],
+  "plugins": []
+}

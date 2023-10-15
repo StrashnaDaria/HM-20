@@ -1,0 +1,296 @@
+{
+  "id": "c1807016-7bfd-438b-abf3-afc2ddc570ec",
+  "version": "2.0",
+  "name": "Daria Strashna HW 25 test 2 and 3",
+  "url": "https://dityvmisti.ua/",
+  "tests": [{
+    "id": "7cedeedc-c74c-4c6d-8aee-3aad710c7b03",
+    "name": "Перевірка роботи переходу з головної сторінки сайту на розділ Дніпро",
+    "commands": [{
+      "id": "d15bcecf-c8af-404b-b740-a8619f3012ce",
+      "comment": "",
+      "command": "open",
+      "target": "https://dityvmisti.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab47c02e-39b8-4463-8124-0007145cc8c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "863eec52-af87-44a2-9f22-96e183c06d7f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header/nav[@id='nav-bar']/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb49635b-4bcf-4a54-8043-6980079934be",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://dnipro.dityvmisti.ua/')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "355e355b-ca48-4e90-bc1d-6a9c1b1bc2f9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Освіта')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e00d1cf1-abd9-446d-8ecb-84a8574587e6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//a[contains(text(),'Огляд приватних шкіл Дніпра 2023')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0eb8327f-30df-4bb1-b702-7674bb3e2a63",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46567ee2-ae4c-49da-9a6d-63fb75113e4e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header/nav[@id='nav-bar']/div[1]/div[1]/a[1]/img[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "455b4731-2ca0-47dc-a0ec-f4059031b41c",
+      "comment": "",
+      "command": "store",
+      "target": "window",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12cdc022-e1c5-4b86-ab0e-541e63f7fd84",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "523e0373-9c34-401c-a980-d0905fcb2e66",
+    "name": "Перевірка роботи пошуку на сайті з перемінною",
+    "commands": [{
+      "id": "fd01d6b6-ad48-4b72-88af-26b6b44c8cc8",
+      "comment": "",
+      "command": "open",
+      "target": "https://dityvmisti.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "647810ea-a650-4a31-83af-4624d2ef4e27",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a629435f-472b-4694-91ea-82a8bb52eb00",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//span[contains(.,'Усі міста')]",
+      "targets": [
+        ["css=.dd-sels:nth-child(1) .sg-cities__sel", "css:finder"],
+        ["xpath=//div[@id='navbar']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Усі міста')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "650a894b-fae8-4d01-8f67-76e8f0987028",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Усі міста')]",
+      "targets": [
+        ["css=.dd-sels:nth-child(1) .sg-cities__sel", "css:finder"],
+        ["xpath=//div[@id='navbar']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Усі міста')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23fc3118-6974-40e6-b135-90548f450992",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//span[contains(.,'Усі міста')]",
+      "targets": [
+        ["css=.open .sg-cities__sel", "css:finder"],
+        ["xpath=//div[@id='navbar']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Усі міста')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4643a0d3-c3ab-4216-90ee-28ed77101277",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Київ')]",
+      "targets": [
+        ["linkText=Київ", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Київ')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kyiv.dityvmisti.ua/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Київ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "481cc638-dbef-4eeb-9632-aa1f5365b879",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Заходи')]",
+      "targets": [
+        ["linkText=Заходи", "linkText"],
+        ["css=#navbar > .nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Заходи')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Заходи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b02b5d94-7cb4-44e9-9275-8c6c18235f74",
+      "comment": "",
+      "command": "click",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=search", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad7a221-0099-4e50-97e5-8f82f494ae4c",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=query",
+      "targets": [],
+      "value": "variable_text"
+    }, {
+      "id": "331806de-0243-4150-a74e-2fc643e37251",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='query']",
+      "targets": [
+        ["id=query", "id"],
+        ["name=search", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "variable_text"
+    }, {
+      "id": "17ab2454-1c85-4085-b2c9-8f41e5f33ae3",
+      "comment": "",
+      "command": "type",
+      "target": "id=query",
+      "targets": [],
+      "value": "квест"
+    }, {
+      "id": "7bebf2a1-a4d2-4607-9164-8ced25dcdafe",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=search", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fd6b5519-4bb7-4946-a818-50cbd8bc1efc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'На наступному тижні')]",
+      "targets": [
+        ["css=li:nth-child(5) > .trigger", "css:finder"],
+        ["xpath=//div[@id='m-filter']/div/div/div[2]/div/div[2]/ul/li[5]/label", "xpath:idRelative"],
+        ["xpath=//li[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'На наступному тижні')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fe14d02-e43b-41c5-b574-a128463ef9b3",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "xpath=//div[@id='filter-age-range']/div",
+      "targets": [
+        ["css=.ui-slider-range", "css:finder"],
+        ["xpath=//div[@id='filter-age-range']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d000de-94f8-4f9e-8714-4f22628656b7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ui-state-focus",
+      "targets": [
+        ["css=.ui-state-focus", "css:finder"],
+        ["xpath=//div[@id='filter-age-range']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81ec8d3b-916b-4dc8-8a49-1493b3b3f157",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='filter-age-range']",
+      "targets": [
+        ["id=filter-age-range", "id"],
+        ["css=#filter-age-range", "css:finder"],
+        ["xpath=//div[@id='filter-age-range']", "xpath:attributes"],
+        ["xpath=//div[@id='m-filter']/div/div/div/div[3]/div/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c56128-a31a-44b9-b03e-6750eb2fb643",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h3[contains(.,'Фантастичні свята з Квесторією')]",
+      "targets": [
+        ["css=.m-event-list__item:nth-child(14) h3", "css:finder"],
+        ["xpath=//li[14]/div/a/div[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Фантастичні свята з Квесторією')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0431818a-4ff7-46ec-adbf-4d3c2b952dcc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad15acbc-f7d3-4d40-b79b-51de07a4e98e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ua.oriflame.com/", "https://dityvmisti.ua/"],
+  "plugins": []
+}
